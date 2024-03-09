@@ -20,7 +20,7 @@ int main(){
 // even or odd
 
 int main(){
-    
+
 int num = 7;
 
 if(num%2 ==0){
@@ -28,5 +28,14 @@ if(num%2 ==0){
 }
 else{
     cout << "Odd" << endl;
+    }
+}
+
+// loop statement
+
+int main(){
+    
+    for(int i=1; i<=10; i=i+1 ){
+        cout << i << endl;
     }
 }
