@@ -31,11 +31,21 @@ else{
     }
 }
 
-// loop statement
+// loop statement1
 
 int main(){
-    
+
     for(int i=1; i<=10; i=i+1 ){
         cout << i << endl;
     }
 }
+
+//loop statement2
+
+int main(){
+
+    for(int i=10; i>=0; i= i-3){
+        cout << i << endl;
+    }
+}
+
