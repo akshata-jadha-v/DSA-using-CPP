@@ -65,11 +65,30 @@ int main(){
 
     for(int i=0; i<5; i=i+1){
         cout << "Outer loop" << i << endl;
+
         for(int j=0; j<5; j=j+1){
             cout << "inner loop" << j << endl;
         }
     }
 }
+
+//patterns
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    //outer loop -> rows
+    for(int i=0; i<4; i=i+1){
+
+        //print 4 stars
+        for(int j=0; j<4; j=j+1){
+            cout << " * ";
+        }
+        cout << endl;
+    }
+    }
 
 
 
