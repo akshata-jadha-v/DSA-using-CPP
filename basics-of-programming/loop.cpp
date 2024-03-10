@@ -49,7 +49,7 @@ int main(){
     }
 }
 
-// loop statement3
+// single loop
 
 int main(){
 
@@ -58,4 +58,15 @@ int main(){
     }
     cout << endl;
 }
+
+// nested loop
+
+int main(){
+
+    for(int i=0; i<5; i=i+1){
+        cout<< "Outer loop" << i << endl;
+    }
+}
+
+
 
