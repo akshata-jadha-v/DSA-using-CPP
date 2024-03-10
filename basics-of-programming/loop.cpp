@@ -49,3 +49,13 @@ int main(){
     }
 }
 
+// loop statement3
+
+int main(){
+
+    for(int i=0; i<5; i=i+1){
+        cout << "A" << " ";
+    }
+    cout << endl;
+}
+
