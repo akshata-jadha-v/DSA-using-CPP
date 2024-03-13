@@ -37,4 +37,10 @@ int main()
     long number = 23;
     cout << number << endl;
     cout << sizeof(number) << endl;
+
+    // boolean -> 1byte 
+    bool t = true;
+    bool f = false;
+    cout << t << endl << f << endl << sizeof(t) << endl << sizeof(f) << endl;
+
 }
