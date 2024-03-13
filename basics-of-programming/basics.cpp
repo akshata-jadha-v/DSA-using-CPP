@@ -38,9 +38,22 @@ int main()
     cout << number << endl;
     cout << sizeof(number) << endl;
 
-    // boolean -> 1byte 
+    // boolean -> 1byte
     bool t = true;
     bool f = false;
-    cout << t << endl << f << endl << sizeof(t) << endl << sizeof(f) << endl;
+    cout << t << endl
+         << f << endl
+         << sizeof(t) << endl
+         << sizeof(f) << endl;
 
+    // operators
+
+    int a = 5;
+    int b = 10;
+
+    cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << b / a << endl;
+    cout << b % a << endl;
 }
