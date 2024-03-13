@@ -47,12 +47,10 @@ int main()
          << sizeof(f) << endl;
 
     // operators
-
     int a = 5;
     int b = 10;
 
     // arithmetic
-
     cout << a + b << endl;
     cout << a - b << endl;
     cout << a * b << endl;
@@ -68,6 +66,14 @@ int main()
     cout << (a == b) << endl;
 
     // assignment
-
     int a = 20;
+
+    // logical
+    int age = 20;
+    int car = 12;
+    if (age >= 18 && car >= 1)
+    {
+        cout << "License pass" << endl;
+    }
+    
 }
