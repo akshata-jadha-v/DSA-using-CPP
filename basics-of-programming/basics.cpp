@@ -51,16 +51,23 @@ int main()
     int a = 5;
     int b = 10;
 
+    // arithmetic
+
     cout << a + b << endl;
     cout << a - b << endl;
     cout << a * b << endl;
     cout << b / a << endl;
     cout << b % a << endl;
 
-    cout << (a>b) << endl;
-    cout << (a<b) << endl;
-    cout << (a>=b) << endl;
-    cout << (a<=b) << endl;
-    cout << (a!=b) << endl;
-    cout << (a==b) << endl;
+    // relational
+    cout << (a > b) << endl;
+    cout << (a < b) << endl;
+    cout << (a >= b) << endl;
+    cout << (a <= b) << endl;
+    cout << (a != b) << endl;
+    cout << (a == b) << endl;
+
+    // assignment
+
+    int a = 20;
 }
