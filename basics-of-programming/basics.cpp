@@ -75,5 +75,15 @@ int main()
     {
         cout << "License pass" << endl;
     }
-    
+
+    // cin -> character input
+
+    int main()
+    {
+
+        int marks;
+
+        cout << "enter the marks here:" << endl;
+        cin >> marks;
+    }
 }
