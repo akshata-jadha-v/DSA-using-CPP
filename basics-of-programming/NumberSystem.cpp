@@ -54,7 +54,6 @@ int decimalToBinaryMethod2(int n)
 }
 
 // Binary to Decimal Conversion
-
 int binaryToDecimal(int n)
 {
     int decimal = 0;
