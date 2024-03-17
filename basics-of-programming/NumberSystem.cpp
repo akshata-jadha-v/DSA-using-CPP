@@ -37,7 +37,6 @@ int main()
 }
 
 // Method 2 by Bitwise
-
 int decimalToBinaryMethod2(int n)
 {
     // Bitwise Method
