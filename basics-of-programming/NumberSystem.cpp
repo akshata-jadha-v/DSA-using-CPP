@@ -1,3 +1,4 @@
+
 // The decimalToBinary function takes an integer n as input and returns its binary representation as an integer.
 // Inside this function:
 // binaryNumber is initialized to 0 to store the binary representation.
