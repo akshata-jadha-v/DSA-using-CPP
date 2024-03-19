@@ -30,7 +30,6 @@ int decimalToBinaryMethod1(int n)
 }
 int main()
 {
-
     int n;
     cin >> n;
     int binary = decimalToBinaryMethod1(n);
