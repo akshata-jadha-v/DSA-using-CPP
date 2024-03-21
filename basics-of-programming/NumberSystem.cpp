@@ -13,6 +13,7 @@
 using namespace std;
 
 // Decimal to Binary Conversion
+
 // Method 1 by division
 
 int decimalToBinaryMethod1(int n)
@@ -66,6 +67,7 @@ int binaryToDecimal(int n)
     }
     return decimal;
 }
+
 
 int main()
 {
